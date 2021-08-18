@@ -1,0 +1,94 @@
+.title {
+	text-align: center;
+}
+
+.main {
+	border: 1px solid black;
+	width: 50%;
+	margin: auto;
+}
+
+#add-item {
+	border: 1px solid black;
+}
+
+.input {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+.label {
+	margin: 10px;
+}
+
+#list {
+	flex-direction: column;
+	display: flex;
+}
+
+#list > li {
+	list-style-type: none;
+	margin: 10px auto;
+}
+
+#list div {
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+.item {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	position: relative;
+}
+.item > div {
+	flex: 3;
+}
+
+/* icons */
+
+i.co {
+	font-size: 25px;
+	padding-left: 5px;
+}
+i.co:hover {
+	cursor: pointer;
+}
+.fa-check-circle {
+	color: #6eb200;
+}
+.lineThrough {
+	text-decoration: line-through;
+	color: #ccc;
+}
+.item i.de {
+	position: absolute;
+	font-size: 25px;
+	right: 10px;
+}
+.item i.de:hover {
+	color: #af0000;
+	cursor: pointer;
+}
+
+.item i.edit {
+	position: absolute;
+	font-size: 25px;
+	right: 50px;
+}
+
+.item i.edit:hover {
+	color: green;
+	cursor: pointer;
+}
